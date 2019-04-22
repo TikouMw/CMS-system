@@ -1,3 +1,4 @@
 <?php
-	echo $_POST['1']."   ".$_POST['2']
+	echo htmlspecialchars($_POST['1'])."   ".$_POST['2']
+
 ?>
